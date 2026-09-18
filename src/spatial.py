@@ -4,6 +4,9 @@ class SpatialObject:
     def __init__(self, geometry):
         self.geometry = geometry
 
+    def area(self):
+        return self.geometry.area
+
 class Parcel(SpatialObject):
     def __init__(self, parcel_id, zone, is_active, area_sqm, geometry):
         self.parcel_id = parcel_id
