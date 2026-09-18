@@ -1,0 +1,11 @@
+{
+    "total_active_area": 4.985869826501811e-05,
+    "parcels_above_threshold": 0,
+    "parcels_by_zone": {
+        "Industrial": 22,
+        "Residential": 49,
+        "Commercial": 29
+    },
+    "development_zone": "Residential",
+    "development_parcels": 49
+}
